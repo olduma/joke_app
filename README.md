@@ -26,25 +26,23 @@ This is a simple web application that fetches jokes from an external API and all
    ```
 
 2. **Install dependencies::**
+   
+   ```bash
+   cd backend
+   npm install
 
-# Install backend dependencies
+   cd ../frontend
+   npm install
+   ```
 
-cd backend
-npm install
+3. **Start the backend server (from the 'backend' directory):**
+   
+   ```bash
+   npm start
+   ```
 
-# Install frontend dependencies
+4. **Start the React development server for the frontend (from the 'frontend' directory):**
 
-cd ../frontend
-npm install
-
-3. **Start the backend server:**
-
-# From the 'backend' directory
-
-npm start
-
-4. **Start the React development server for the frontend:**
-
-# From the 'frontend' directory
-
-npm start
+   ```bash
+   npm start
+   ```
