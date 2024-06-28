@@ -1,0 +1,47 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: repeating-linear-gradient(45deg, #ff6b6b, #5a2d82, #00a8cc);
+  background-size: 200% 200%;
+  animation: gradientAnimation 50s ease-in-out infinite;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#joke-box {
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#punchline {
+  font-weight: lighter;
+  font-size: 16px;
+  margin: 20px;
+}

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,600&family=Martian+Mono:wght@400;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Martian Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
